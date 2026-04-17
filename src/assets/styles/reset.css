@@ -27,6 +27,7 @@ body {
   color: var(--text-primary);
   background-color: var(--bg-primary);
   font-size: var(--font-md);
+  overflow-x: hidden;
 }
 
 h1,
