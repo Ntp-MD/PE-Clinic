@@ -1,0 +1,81 @@
+input,
+textarea,
+select {
+  width: 100%;
+  padding: var(--gap-sm) var(--gap-md);
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--accent-primary);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: var(--font-sm);
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--clinic-charcoal);
+  background-color: var(--bg-surface);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-muted);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+select {
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: var(--gap-md);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: var(--gap-xs);
+  font-size: var(--font-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap-md);
+}
+
+.form-row-single {
+  grid-template-columns: 1fr;
+}
+
+.booking-form {
+  background-color: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--gap-xl);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.booking-form h3 {
+  text-align: center;
+  margin-bottom: var(--gap-lg);
+  color: var(--clinic-charcoal);
+}
+
+.contact-form {
+  background: linear-gradient(135deg, var(--bg-elevated), var(--bg-surface));
+  border-radius: var(--radius-lg);
+  padding: var(--gap-xl);
+}
+
+.contact-form .form-row {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}

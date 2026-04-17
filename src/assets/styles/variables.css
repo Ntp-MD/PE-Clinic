@@ -1,0 +1,49 @@
+:root {
+  /* Colors Theme - use in background-color property */
+  /* Base - Off-white theme */
+  --bg-primary: #faf8f3;
+  --bg-surface: #f5f3ed;
+  --bg-elevated: #ede9e1;
+  --bg-soft: #0b0b0c;
+  --bg-soft-alt: #121214;
+
+  --accent-primary: #8b7355;
+  --accent-hover: #6b5344;
+
+  --text-primary: #2c2416;
+  --text-secondary: #5c4d3d;
+  --text-muted: #8b7355;
+  --text-dark: #f9fafb;
+  --text-light: #a1a1aa;
+
+  /* Font Size use in font-size property h1-h6, p */
+  --font-xs: clamp(12px, 0.5vw, 14px);
+  --font-sm: clamp(14px, 1.5vw, 16px);
+  --font-md: clamp(16px, 2vw, 18px);
+  --font-lg: clamp(18px, 2.5vw, 20px);
+  --font-xl: clamp(20px, 3vw, 24px);
+  --font-2xl: calc(var(--font-xl) * 2);
+  --font-3xl: calc(var(--font-xl) * 3);
+
+  /* Spacing use in margin and padding and gap */
+  --gap-xs: 5px;
+  --gap-sm: 10px;
+  --gap-md: 20px;
+  --gap-lg: 30px;
+  --gap-xl: 50px;
+  --gap-section: clamp(50px, 5vw, 150px);
+
+  /* Border Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 15px;
+  --radius-lg: 20px;
+  --radius-xl: 30px;
+
+  /* PE-Clinic specific colors */
+  --clinic-gold: #b8860b;
+  --clinic-charcoal: #2c2416;
+  --clinic-rose: #c9a6a6;
+  --clinic-pearl: #faf8f3;
+  --clinic-sage: #8b9a7d;
+}
