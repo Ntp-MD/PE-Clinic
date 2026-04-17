@@ -48,6 +48,7 @@ const navLinks = [
   backdrop-filter: blur(10px);
   padding: var(--gap-sm) 0;
   border-bottom: 1px solid rgba(139, 115, 85, 0.1);
+  width: 100vw;
 }
 
 .site-header-nav {
