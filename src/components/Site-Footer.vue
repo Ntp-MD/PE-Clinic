@@ -183,7 +183,8 @@ const socialLinks = [
 
 @media (max-width: 768px) {
   .site-footer-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
 
@@ -204,7 +205,8 @@ const socialLinks = [
 
 @media (max-width: 576px) {
   .site-footer-links {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
 }

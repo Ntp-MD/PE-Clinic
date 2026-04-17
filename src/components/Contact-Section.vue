@@ -162,7 +162,8 @@ const contactInfo = ref<ContactInfo[]>([
 
 @media (max-width: 992px) {
   .contact-section-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 
   .contact-section-cards {

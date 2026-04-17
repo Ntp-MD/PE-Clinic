@@ -53,7 +53,8 @@ select {
 }
 
 .form-row-single {
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .booking-form {

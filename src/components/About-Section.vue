@@ -167,7 +167,8 @@ const stats = ref([
 
 @media (max-width: 992px) {
   .about-section-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
 
@@ -183,7 +184,8 @@ const stats = ref([
 
 @media (max-width: 576px) {
   .about-section-stats {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 }
 </style>
